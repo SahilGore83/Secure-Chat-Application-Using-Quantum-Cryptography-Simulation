@@ -179,7 +179,7 @@
     font-weight: 500;
 }
 
-/* ========== OTP ELEMENTS (still work with login styles) ========== */
+
 .otp-display {
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 OUTER SHELL
 .qchat-shell {
     display: flex;
-    height: 100vh;      /* full screen */
+    height: 100vh;     
     width: 100%;
     background: radial-gradient(circle at top, #d6b7ff 0%, #5c3b79 45%, #100217 100%);
     color: #fff;
@@ -316,4 +316,11 @@ OUTER SHELL
         height: 260px;
         flex: 0 0 auto;
     }
+}
+/* Search bar */
+.qchat-no-results {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.65);
 }
