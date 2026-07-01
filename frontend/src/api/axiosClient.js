@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://secure-chat-application-using-quantum.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
