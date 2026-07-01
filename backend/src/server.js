@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [ 
       "http://localhost:5173",
-      "https://secure-chat-application-using-quant.vercel.app/",
+      "https://secure-chat-application-using-quantum-cryptography-kkcr1879r.vercel.app/",
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
