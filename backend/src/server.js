@@ -11,7 +11,10 @@ const app = express();
 // 1) CORS FIRST
 app.use(
   cors({
-    origin:  "http://localhost:5173",
+    origin: [ 
+      "http://localhost:5173",
+      "https://secure-chat-application-using-quant.vercel.app/",
+    ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
   })
