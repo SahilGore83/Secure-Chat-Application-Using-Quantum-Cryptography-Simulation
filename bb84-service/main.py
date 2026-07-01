@@ -63,6 +63,9 @@ async def decrypt_message(req: DecryptRequest):
 
     return DecryptResponse(keyId=req.keyId, plaintext=plaintext)
 
+@app.get("/")
+async def root():
+    return {"message": "Qchat BB84 service is running"}
 
 @app.get("/health")
 async def health_check():
